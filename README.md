@@ -3,9 +3,11 @@ REST api to insert .json data for SQL Sever
 
 **Change the configuration in config.js according to each system.**
 
-query all customers: GET "localhost:8090/api/cutomer"
-query a single customer: GET "localhost:8090/api/customer/(id)"
-add customer: POST "localhost:8090/api/customer" with json body
+1. query all customers: GET "localhost:8090/api/cutomer"
+
+2. query a single customer: GET "localhost:8090/api/customer/(id)"
+
+3. add customer: POST "localhost:8090/api/customer" with json body
 {
     "request_id" : "",
     "source_node_id" : "",
@@ -69,9 +71,11 @@ add customer: POST "localhost:8090/api/customer" with json body
     "cust_created_date" : ""
 }
 
-query all requests: GET "localhost:8090/api/request"
-query a single request: GET "localhost:8090/api/request/(id)"
-add request: POST "localost:8090/api/request" with json body
+4. query all requests: GET "localhost:8090/api/request"
+
+5. query a single request: GET "localhost:8090/api/request/(id)"
+
+6. add request: POST "localost:8090/api/request" with json body
 {
     "referenceCode" : "",
     "AppRequestCode" : "",
